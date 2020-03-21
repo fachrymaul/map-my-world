@@ -1,4 +1,4 @@
-prefix=/mnt/catkin-ws/udacity-where_am_i/devel
+prefix=/home/workspace/catkin-ws/map-my-world/devel
 
 Name: my_robot
 Description: Description of my_robot

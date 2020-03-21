@@ -1,8 +1,8 @@
-prefix=/mnt/catkin-ws/udacity-where_am_i/devel
+prefix=/home/workspace/catkin-ws/map-my-world/devel
 
 Name: ball_chaser
 Description: Description of ball_chaser
 Version: 0.0.0
-Cflags: -I/mnt/catkin-ws/udacity-where_am_i/devel/include
+Cflags: -I/home/workspace/catkin-ws/map-my-world/devel/include
 Libs: -L${prefix}/lib 
 Requires: 
