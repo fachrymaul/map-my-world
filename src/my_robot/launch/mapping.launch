@@ -6,7 +6,6 @@
     <arg name="rgb_topic"         default="/camera/rgb/image_raw"/>
     <arg name="depth_topic"       default="/camera/depth/image_raw"/>
     <arg name="camera_info_topic" default="/camera/rgb/camera_info"/>
-    <arg name="odom_topic"        default="/odom"/>
 
     <!-- Mapping node -->
     <group ns="rtabmap">
@@ -23,7 +22,6 @@
             <remap from="rgb/image"       to="$(arg rgb_topic)"/>
             <remap from="depth/image"     to="$(arg depth_topic)"/>
             <remap from="rgb/camera_info" to="$(arg camera_info_topic)"/>
-            <remap from="rtabmap/odom"    to="$(arg odom_topic)"/>
 
             <!-- RTAB-Map output -->
             <remap from="grid_map" to="/map"/>
